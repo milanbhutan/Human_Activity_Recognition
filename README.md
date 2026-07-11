@@ -1,6 +1,11 @@
+# Human Activity Recognition
+
 ## Project Overview
 
 The main focus of this project is to repurpose TinyML's magic wand library to make predictions of human activity based on raw IMU using a pre-trained 1D convolutional model. Initially the magic wand library performed rasterization on hand gestures which converted them into a 2D grid that would then be classified using 2D convolutional layers. This rasterization was replaced with raw IMU data which would be fed into our model's input buffer to be classified. 
+
+## Video Demo
+https://youtu.be/OJUjAM1EeVs?si=Lq6GR4rPyzxcuzgO
 
 ## Software Architecture 
 
